@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "CDC.Reader": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

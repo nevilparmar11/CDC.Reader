@@ -1,0 +1,30 @@
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.deps.json
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.pdb
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.csproj.AssemblyReference.cache
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.AssemblyInfoInputs.cache
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.AssemblyInfo.cs
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.csproj.CoreCompileInputs.cache
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+C:\Users\nevil\Desktop\temp\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.pdb
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.deps.json
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.pdb
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.csproj.AssemblyReference.cache
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.AssemblyInfoInputs.cache
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.AssemblyInfo.cs
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.csproj.CoreCompileInputs.cache
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.pdb
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.deps.json
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\bin\Debug\netcoreapp3.1\CDC.Reader.Models.pdb
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.csproj.AssemblyReference.cache
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.GeneratedMSBuildEditorConfig.editorconfig
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.AssemblyInfoInputs.cache
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.AssemblyInfo.cs
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.csproj.CoreCompileInputs.cache
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+N:\Github Repos\CDC.Reader\CDC.Reader.Models\obj\Debug\netcoreapp3.1\CDC.Reader.Models.pdb

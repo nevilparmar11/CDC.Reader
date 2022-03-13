@@ -1,0 +1,30 @@
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.deps.json
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.dll
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.pdb
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.csproj.AssemblyReference.cache
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.AssemblyInfoInputs.cache
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.AssemblyInfo.cs
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.csproj.CoreCompileInputs.cache
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.dll
+C:\Users\nevil\Desktop\temp\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.pdb
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.deps.json
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.dll
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.pdb
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.csproj.AssemblyReference.cache
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.AssemblyInfoInputs.cache
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.AssemblyInfo.cs
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.csproj.CoreCompileInputs.cache
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.dll
+C:\Users\nevil\Desktop\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.pdb
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.deps.json
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.dll
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\bin\Debug\netcoreapp3.1\CDC.Reader.Application.pdb
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.csproj.AssemblyReference.cache
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.GeneratedMSBuildEditorConfig.editorconfig
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.AssemblyInfoInputs.cache
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.AssemblyInfo.cs
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.csproj.CoreCompileInputs.cache
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.dll
+N:\Github Repos\CDC.Reader\CDC.Reader.Application\obj\Debug\netcoreapp3.1\CDC.Reader.Application.pdb

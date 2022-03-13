@@ -1,0 +1,349 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nevil\\Desktop\\temp\\POC.Employee.Worker\\POC.Employee.Worker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Application\\CDC.Reader.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Application\\CDC.Reader.Application.csproj",
+        "projectName": "CDC.Reader.Application",
+        "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Application\\CDC.Reader.Application.csproj",
+        "packagesPath": "C:\\Users\\nevil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Core\\CDC.Reader.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Core\\CDC.Reader.Core.csproj",
+        "projectName": "CDC.Reader.Core",
+        "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Core\\CDC.Reader.Core.csproj",
+        "packagesPath": "C:\\Users\\nevil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Infrastructure\\CDC.Reader.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Infrastructure\\CDC.Reader.Infrastructure.csproj",
+        "projectName": "CDC.Reader.Infrastructure",
+        "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Infrastructure\\CDC.Reader.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nevil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Application\\CDC.Reader.Application.csproj": {
+                "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Application\\CDC.Reader.Application.csproj"
+              },
+              "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj": {
+                "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj",
+        "projectName": "CDC.Reader.Models",
+        "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj",
+        "packagesPath": "C:\\Users\\nevil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nevil\\Desktop\\temp\\POC.Employee.Worker\\POC.Employee.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nevil\\Desktop\\temp\\POC.Employee.Worker\\POC.Employee.Worker.csproj",
+        "projectName": "POC.Employee.Worker",
+        "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\POC.Employee.Worker\\POC.Employee.Worker.csproj",
+        "packagesPath": "C:\\Users\\nevil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nevil\\Desktop\\temp\\POC.Employee.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Core\\CDC.Reader.Core.csproj": {
+                "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Core\\CDC.Reader.Core.csproj"
+              },
+              "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Infrastructure\\CDC.Reader.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Infrastructure\\CDC.Reader.Infrastructure.csproj"
+              },
+              "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj": {
+                "projectPath": "C:\\Users\\nevil\\Desktop\\temp\\CDC.Reader.Models\\CDC.Reader.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
