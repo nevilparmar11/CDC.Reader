@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-POC.Employee.Worker-F24B91F8-27C2-425F-898A-1DD28ADAE4BF")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CDC.Reader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

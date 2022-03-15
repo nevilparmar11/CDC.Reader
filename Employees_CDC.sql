@@ -67,5 +67,7 @@ insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('Ashish'
 insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('Anil', 'Parmar', '1234567890', 'temp@gmail.com');
 insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('temp', 'patel', '1234567890', 'temp@gmail.com');
 insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('Dhruval', 'gandhi', '1234567890', 'dhruval@gmail.com');
+insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('Dhwanit', 'Patel', '0987654321', 'dhwanit@gmail.com');
+insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('Pratik4', 'Gade', '0987654321', 'pratik4@gmail.com');
 
 insert into dbo.CDCProcessLogs(TableName, LSN) Values('dbo.CDCProcessLogs', 0x0000002A000062380003);

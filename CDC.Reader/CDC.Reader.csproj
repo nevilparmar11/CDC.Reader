@@ -12,11 +12,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="Serilog" Version="2.10.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CDC.Event.Generator\CDC.Event.Generator.csproj" />
     <ProjectReference Include="..\CDC.Reader.Core\CDC.Reader.Core.csproj" />
     <ProjectReference Include="..\CDC.Reader.Infrastructure\CDC.Reader.Infrastructure.csproj" />
     <ProjectReference Include="..\CDC.Reader.Models\CDC.Reader.Models.csproj" />

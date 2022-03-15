@@ -1,0 +1,13 @@
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\bin\Debug\netcoreapp3.1\CDC.Event.Generator.deps.json
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\bin\Debug\netcoreapp3.1\CDC.Event.Generator.dll
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\bin\Debug\netcoreapp3.1\CDC.Event.Generator.pdb
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\bin\Debug\netcoreapp3.1\CDC.Reader.Models.dll
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\bin\Debug\netcoreapp3.1\CDC.Reader.Models.pdb
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.csproj.AssemblyReference.cache
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.GeneratedMSBuildEditorConfig.editorconfig
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.AssemblyInfoInputs.cache
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.AssemblyInfo.cs
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.csproj.CoreCompileInputs.cache
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.csproj.CopyComplete
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.dll
+N:\Github Repos\CDC.Reader\CDC.Event.Generator\obj\Debug\netcoreapp3.1\CDC.Event.Generator.pdb

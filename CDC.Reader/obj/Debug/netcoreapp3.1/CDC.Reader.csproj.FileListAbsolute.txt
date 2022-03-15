@@ -178,3 +178,14 @@ N:\Github Repos\CDC.Reader\CDC.Reader\obj\Debug\netcoreapp3.1\CDC.Reader.csproj.
 N:\Github Repos\CDC.Reader\CDC.Reader\obj\Debug\netcoreapp3.1\CDC.Reader.dll
 N:\Github Repos\CDC.Reader\CDC.Reader\obj\Debug\netcoreapp3.1\CDC.Reader.pdb
 N:\Github Repos\CDC.Reader\CDC.Reader\obj\Debug\netcoreapp3.1\CDC.Reader.genruntimeconfig.cache
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\Extensions.Hosting.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\CDC.Event.Generator.dll
+N:\Github Repos\CDC.Reader\CDC.Reader\bin\Debug\netcoreapp3.1\CDC.Event.Generator.pdb

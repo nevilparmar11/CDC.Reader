@@ -4,6 +4,74 @@
     "N:\\Github Repos\\CDC.Reader\\CDC.Reader\\CDC.Reader.csproj": {}
   },
   "projects": {
+    "N:\\Github Repos\\CDC.Reader\\CDC.Event.Generator\\CDC.Event.Generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "N:\\Github Repos\\CDC.Reader\\CDC.Event.Generator\\CDC.Event.Generator.csproj",
+        "projectName": "CDC.Event.Generator",
+        "projectPath": "N:\\Github Repos\\CDC.Reader\\CDC.Event.Generator\\CDC.Event.Generator.csproj",
+        "packagesPath": "C:\\Users\\nevil\\.nuget\\packages\\",
+        "outputPath": "N:\\Github Repos\\CDC.Reader\\CDC.Event.Generator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nevil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "N:\\Github Repos\\CDC.Reader\\CDC.Reader.Models\\CDC.Reader.Models.csproj": {
+                "projectPath": "N:\\Github Repos\\CDC.Reader\\CDC.Reader.Models\\CDC.Reader.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "N:\\Github Repos\\CDC.Reader\\CDC.Reader.Application\\CDC.Reader.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -281,6 +349,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "N:\\Github Repos\\CDC.Reader\\CDC.Event.Generator\\CDC.Event.Generator.csproj": {
+                "projectPath": "N:\\Github Repos\\CDC.Reader\\CDC.Event.Generator\\CDC.Event.Generator.csproj"
+              },
               "N:\\Github Repos\\CDC.Reader\\CDC.Reader.Core\\CDC.Reader.Core.csproj": {
                 "projectPath": "N:\\Github Repos\\CDC.Reader\\CDC.Reader.Core\\CDC.Reader.Core.csproj"
               },
@@ -319,7 +390,7 @@
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[5.0.0, )"
             },
             "Serilog": {
               "target": "Package",

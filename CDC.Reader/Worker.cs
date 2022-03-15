@@ -9,6 +9,8 @@ using CDC.Reader.Models;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using CDC.Reader.Core.Extensions;
+using CDC.Event.Generator;
+using Microsoft.Extensions.Configuration;
 
 namespace CDC.Reader.Worker
 {
@@ -17,14 +19,18 @@ namespace CDC.Reader.Worker
         private readonly ILogger<Worker> _logger;
         private readonly IEmployeeRepository _employeeRepository;
         private readonly ICDCProcessLogRepository _processLogRepository;
+        private readonly IConfiguration _configuration;
+        private EmployeeEventGenerator employeeEventGenerator;
 
         private byte[] lastProcessedLSN = null;
 
-        public Worker(ILogger<Worker> logger, IEmployeeRepository employeeRepository, ICDCProcessLogRepository processLogRepository)
+        public Worker(ILogger<Worker> logger, IEmployeeRepository employeeRepository, ICDCProcessLogRepository processLogRepository, IConfiguration configuration)
         {
             _logger = logger;
             _employeeRepository = employeeRepository;
             _processLogRepository = processLogRepository;
+            _configuration = configuration;
+            employeeEventGenerator = new EmployeeEventGenerator(_logger, _configuration);
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -45,9 +51,11 @@ namespace CDC.Reader.Worker
 
                 if(lastLog == null)
                 {
-                    lastLog = new CDCProcessLogs();
-                    lastLog.TableName = TableNames.CDCProcessLogs;
-                    lastLog.TimeStamp = DateTime.Now;
+                    lastLog = new CDCProcessLogs
+                    {
+                        TableName = TableNames.CDCProcessLogs,
+                        TimeStamp = DateTime.Now
+                    };
                 }
 
                 var changes = await _employeeRepository.GetCDCEmployeeRecords(lastLog?.LSN.ConvertToString());
@@ -61,15 +69,6 @@ namespace CDC.Reader.Worker
                 {
                     _logger.LogInformation("All events have been processed, no new events found!");
                 }
-
-                // TODO : determine what events to dispatch based on OperationType
-                // TODO : In the scenario that multiple instances of this worker are running
-                //        we need to determine the last record pulled off the cdc table
-                //        and insert that into another table for tracking. Don't cross paths
-                //        between instances of the worker service.
-
-                // TODO : After processing is completed, delete the records? Or let a SQL Agent
-                //        job come in later for cleanup?
             }
             catch (Exception ex)
             {
@@ -85,6 +84,10 @@ namespace CDC.Reader.Worker
             {
                 _logger.LogInformation(emp.FirstName + " " + emp.LastName + " " + emp.PhoneNumber);
                 lastProcessedLSN = emp.Start_LSN;
+                if(emp.OperationType != 3)
+                {
+                    employeeEventGenerator.GenerateEvent(emp);
+                }
             }
         }
     }
