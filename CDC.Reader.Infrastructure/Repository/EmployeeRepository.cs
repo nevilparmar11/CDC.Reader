@@ -22,6 +22,7 @@ namespace CDC.Reader.Infrastructure.Repository
             if (!string.IsNullOrEmpty(LSN))
             {
                 string query = @"Select 
+                                        GlobalEmployeeId,
                                         EmployeeId,
                                         FirstName,
                                         LastName,
@@ -35,6 +36,7 @@ namespace CDC.Reader.Infrastructure.Repository
             }
 
             string query2 = @"Select 
+                                        GlobalEmployeeId,
                                         EmployeeId,
                                         FirstName,
                                         LastName,

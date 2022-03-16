@@ -263,6 +263,10 @@ namespace CDC.Event.Generator.Dex
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "13.15.10.0 (NJsonSchema v10.6.10.0 (Newtonsoft.Json v12.0.0.0))")]
     public partial class Employee
     {
+        [Newtonsoft.Json.JsonProperty("globalEmployeeId", Required = Newtonsoft.Json.Required.Always)]
+        [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
+        public System.Guid GlobalEmployeeId { get; set; }
+
         [Newtonsoft.Json.JsonProperty("employeeId", Required = Newtonsoft.Json.Required.Always)]
         public int EmployeeId { get; set; }
 
@@ -272,9 +276,8 @@ namespace CDC.Event.Generator.Dex
         [Newtonsoft.Json.JsonProperty("lastName", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string LastName { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("hiredDate", Required = Newtonsoft.Json.Required.Always)]
-        [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
-        public System.DateTimeOffset HiredDate { get; set; }
+        [Newtonsoft.Json.JsonProperty("hiredDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.DateTimeOffset? HiredDate { get; set; }
 
         [Newtonsoft.Json.JsonProperty("phoneNumber", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string PhoneNumber { get; set; }

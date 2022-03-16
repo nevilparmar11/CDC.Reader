@@ -83,6 +83,7 @@ namespace CDC.Event.Generator
         {
             Employee dexEmployee = new Employee()
             {
+                GlobalEmployeeId = employee.GlobalEmployeeId,
                 Email = employee.Email,
                 EmployeeId = employee.EmployeeId,
                 FirstName = employee.FirstName,
