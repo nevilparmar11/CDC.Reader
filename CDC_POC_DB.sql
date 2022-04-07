@@ -1,5 +1,7 @@
 USE CDC_POC_DB;
 
+SELECT @@VERSION
+
 USE [CDC_POC_DB]
 GO
 
@@ -37,6 +39,7 @@ CREATE TABLE [dbo].[Employees]
 	[PhoneNumber] varchar(25),
 	[Email] varchar(25),
 	[Date] DateTime default SYSUTCDATETIME(),
+	[GlobalEmployeeId] UNIQUEIDENTIFIER DEFAULT NEWID()
 );
 
 CREATE TABLE [dbo].[CDCProcessLogs]
@@ -80,4 +83,6 @@ insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('Dhwanit
 
 insert into dbo.Employees(FirstName, LastName,PhoneNumber,Email) values('d1', 'asdf', '0987654321', 'tt@gmail.com');
 
-insert into dbo.CDCProcessLogs(TableName, LSN) Values('dbo.CDCProcessLogs', 0x0000002A000062380003);
+insert into dbo.CDCProcessLogs(TableName, LSN) Values('dbo.Employees', 0x0000002A000062380003);
+
+Update dbo.CDCProcessLogs SET TableName='dbo.Employees' WHERE ProcessLogId = 9;
