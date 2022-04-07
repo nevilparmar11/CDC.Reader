@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using CDC.Event.Generator.Dex;
 using CDC.Event.Generator.Extension;
 using CDC.Reader.Models;

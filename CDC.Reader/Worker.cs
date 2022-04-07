@@ -47,24 +47,24 @@ namespace CDC.Reader.Worker
         {
             try
             {
-                CDCProcessLogs lastLog = await _processLogRepository.GetCDCProcessLog(TableName: TableNames.CDCProcessLogs);
+                CDCProcessLogs lastProcessedLog = await _processLogRepository.GetCDCProcessLog(TableName: TableNames.EmployeeTBL);
 
-                if(lastLog == null)
+                if(lastProcessedLog == null)
                 {
-                    lastLog = new CDCProcessLogs
+                    lastProcessedLog = new CDCProcessLogs
                     {
-                        TableName = TableNames.CDCProcessLogs,
+                        TableName = TableNames.EmployeeTBL,
                         TimeStamp = DateTime.Now
                     };
                 }
 
-                var changes = await _employeeRepository.GetCDCEmployeeRecords(lastLog?.LSN.ConvertToString());
+                var changes = await _employeeRepository.GetCDCEmployeeRecords(lastProcessedLog?.LSN.ConvertToString());
 
                 if(changes.ToList().Count > 0)
                 {
                     LogChanges(changes);
-                    lastLog.LSN = lastProcessedLSN;
-                    int result = await _processLogRepository.SaveCDCProcessLog(lastLog);
+                    lastProcessedLog.LSN = lastProcessedLSN;
+                    int result = await _processLogRepository.SaveCDCProcessLog(lastProcessedLog);
                 } else
                 {
                     _logger.LogInformation("All events have been processed, no new events found!");

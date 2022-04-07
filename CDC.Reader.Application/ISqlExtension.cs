@@ -12,9 +12,5 @@ namespace CDC.Reader.Application
         public Task<T> Get<T>(string query, object parameters = null, string mirrorConnectionString = "ConnectionStrings:CDCMirror", string connectionString = "ConnectionStrings:CDCMain");
 
         public Task<IEnumerable<T>> GetList<T>(string sqlQuery, object parameters = null, string mirrorConnectionString = "ConnectionStrings:CDCMirror", string connectionString = "ConnectionStrings:CDCMain");
-
-        public Task<DataSet> ExecuteCommand(string connectionString, string commandName, SqlParameter[] parameters);
-
-        public Task<SqlParameter[]> ExecuteNonQuery(string connectionString, string commandName, SqlParameter[] parameters);
     }
 }

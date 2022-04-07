@@ -19,48 +19,6 @@ namespace CDC.Reader.Application.Extension
             this.configuration = configuration;
         }
 
-        private static SqlConnection GetSqlConnection(string connectionString)
-        {
-            SqlConnection sqlConnection = new SqlConnection(connectionString);
-            return sqlConnection;
-        }
-
-        public async Task<DataSet> ExecuteCommand(string connectionString, string commandName, SqlParameter[] parameters)
-        {
-            DataSet dataSet = new DataSet();
-
-            SqlConnection sqlConnection = GetSqlConnection(connectionString);
-
-            SqlCommand command = new SqlCommand(commandName, sqlConnection);
-            command.Parameters.AddRange(parameters);
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandTimeout = Convert.ToInt32(configuration["CommandTimeOut"]);
-
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(command);
-
-            sqlConnection.Open();
-            await Task.Run(() => sqlDataAdapter.Fill(dataSet)).ConfigureAwait(false);
-            sqlConnection.Close();
-
-            return dataSet;
-        }
-
-        public async Task<SqlParameter[]> ExecuteNonQuery(string connectionString, string commandName, SqlParameter[] parameters)
-        {
-            SqlConnection sqlConnection = GetSqlConnection(connectionString);
-
-            SqlCommand command = new SqlCommand(commandName, sqlConnection);
-            command.Parameters.AddRange(parameters);
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandTimeout = Convert.ToInt32(configuration["CommandTimeOut"]);
-
-            sqlConnection.Open();
-            await command.ExecuteNonQueryAsync().ConfigureAwait(false);
-            sqlConnection.Close();
-
-            return parameters;
-        }
-
         public async Task<T> Get<T>(string query, object parameters = null, string mirrorConnectionString = "ConnectionStrings:CDCMirror", string connectionString = "ConnectionStrings:CDCMain")
         {
             T result;
